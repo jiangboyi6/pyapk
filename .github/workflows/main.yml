@@ -1,4 +1,7 @@
 name: Buildozer Android APK
+run: |
+        # 方案：使用 yes 命令自动回答所有的 y/n 提示
+        yes | buildozer -v android debug
 
 on:
   push:
